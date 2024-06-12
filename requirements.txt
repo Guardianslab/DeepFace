@@ -11,6 +11,6 @@ mtcnn>=0.1.0
 retina-face>=0.0.1
 fire>=0.4.0
 gunicorn>=20.1.0
-
+ultralytics==8.2.23
 
 #keras>=2.2.0
