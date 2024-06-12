@@ -81,10 +81,11 @@ def load_model(
     # ---------------------------------------
     # check the availability of pre-trained weights
 
-    home = folder_utils.get_deepface_home()
+    # home = folder_utils.get_deepface_home()
 
     file_name = "arcface_weights.h5"
-    output = home + "/.deepface/weights/" + file_name
+    # output = home + "/.deepface/weights/" + file_name
+    output = os.path.join('weights', file_name)
 
     if os.path.isfile(output) != True:
 
